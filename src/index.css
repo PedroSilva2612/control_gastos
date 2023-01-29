@@ -89,6 +89,12 @@ header h1 {
     margin-bottom: 2rem;
 }
 
+@media screen and  (max-width: 450px){
+    .formulario label{
+        font-size: 2.2rem;
+    }
+}
+
 .formulario input[type="text"],
 .formulario input[type="number"] {
     background-color: var(--gris-claro);
@@ -185,6 +191,12 @@ header h1 {
 .formulario input[type="number"].nuevo-presupuesto {
     font-size: 2.8rem;
     text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .formulario input[type="number"].nuevo-presupuesto{
+        font-size: 2rem;
+    }
 }
 
 .contenedor-presupuesto svg {
